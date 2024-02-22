@@ -1,4 +1,4 @@
-import { ButtonGroup, Button } from '@shopify/polaris';
+import { Button, ButtonGroup } from '@shopify/polaris';
 import React from 'react';
 
 function ActionsGroup({ itemId, itemStatus, updateStatusAction, removeAction }) {

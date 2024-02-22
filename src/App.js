@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import '@shopify/polaris/build/esm/styles.css';
 import enTranslations from '@shopify/polaris/locales/en.json';
-import { AppProvider, Page, Card, Button } from '@shopify/polaris';
+import { AppProvider, Button, Card, Page } from '@shopify/polaris';
 import AppTopBar from './components/TopBar';
 import Todo from './components/Todo';
 import AddTodoModal from './components/AddTodoModal';

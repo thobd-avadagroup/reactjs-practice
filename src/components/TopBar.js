@@ -1,6 +1,6 @@
-import { TopBar, ActionList, Icon, Frame, Text } from '@shopify/polaris';
+import { ActionList, Frame, Icon, Text, TopBar } from '@shopify/polaris';
 import { ArrowLeftIcon, QuestionCircleIcon } from '@shopify/polaris-icons';
-import { useState, useCallback } from 'react';
+import { useCallback, useState } from 'react';
 
 function AppTopBar() {
   const [isUserMenuOpen, setIsUserMenuOpen] = useState(false);
